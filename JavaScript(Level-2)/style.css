@@ -1,0 +1,16 @@
+h2{
+    background-color: aqua;
+    border-radius: 15px;
+    transition: 3s 2s;
+    
+    border: 2px solid green;
+    text-align: center;
+    height: 100px;
+    width: 100px;
+}
+h2:hover{
+    background-color: orange;
+    padding-top: 4px;
+    border-radius: 50%;
+    
+}
