@@ -19,5 +19,11 @@ console.log(`length of nest = ${nest.length}`);
 console.log(`length of nest[0] = ${nest[0].length}`);
 console.log(`length of nest[1] = ${nest[1].length}`);
 console.log(`length of nest[2] = ${nest[2].length}`);
-//we can also do this by using nested for loops like we tackle with 2d arrays in other languages but th 
+//we can also do this by using nested for loops like we tackle with 2d arrays in other languages but there number of columns in each inner array should be same.And in js we don't have restriction to number of columns.
+//but we can do this as 
+for(let i=0;i<nest.length;i++){
+    for(let j=0;j<nest[i].length;j++){
+        console.log(nest[i][j]);
+    }
+} 
 

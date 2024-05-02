@@ -1,3 +1,4 @@
+//WAP to get first n elements of array
 let arr=[1,2,3,4,5,6,7,8,9];
 let n=prompt("enter number first of digits");
 let crr=arr.slice(0,n);
@@ -5,7 +6,7 @@ console.log(crr);
 
 
 
-
+//WAP to get last n elements of array
 let x=prompt("Enter number of last digits");
 let brr=arr.slice(-x);
 console.log(brr);
@@ -26,6 +27,7 @@ for(let i=0;i<frr.length;i++){
         break;
     }
 }
+console.log(frr.contains(5));
 
 let str4="    i love silence   !   ";
 console.log(str4.trim());
