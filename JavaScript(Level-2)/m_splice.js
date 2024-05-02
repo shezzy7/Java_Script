@@ -1,4 +1,4 @@
-//slice:it is a muteable method whic is used to remove/replace/add element in array.
+//slice:it is a muteable method which is used to remove/replace/add element in array.
 // it makes changes in original array.
 //it is similar to slice method but slice does not make changes to original array.
 //splice(start,deleteCount,item0...itemN)

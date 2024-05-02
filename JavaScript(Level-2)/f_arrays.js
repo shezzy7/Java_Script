@@ -1,3 +1,5 @@
+// Array is linear collection of things
+//in js Arrays are muteable,so we can make changes in original array
 let arr=[2,4,6,8];
 console.log(arr);
 console.log(arr[0]);
@@ -16,4 +18,9 @@ console.log(brr);
 //we can also add any value at any index like
 brr[10]="jam";
 console.log(brr);
-// but the area  b\w these indexes will be occupied by empty spaces
+brr[8]="shezzy2";
+console.log(brr);
+// but the area  b\w these indexes will be occupied by empty spaces(undefined)
+for(let i=0;i<brr.length;i++){
+    console.log(brr[i]);
+}
