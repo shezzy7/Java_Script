@@ -4,14 +4,15 @@ function dice(){
     let rol=Math.floor(Math.random()*6)+1;
     console.log(rol);
 }
-let start=prompt("Enter roll or stop");
+
+let start=prompt("roll or stop..?");
 while(start!="stop"){
     if(start=="roll"){
     dice();
-    start=prompt("Enter roll or stop");
+    start=prompt("roll or stop..?");
     }
     else{
-        start=prompt("Wrong choice!!roll or stop");
+        start=prompt("Wrong choice!!roll or stop..?");
     }
 }
 console.log("Stopped");

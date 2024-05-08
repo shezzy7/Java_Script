@@ -1,4 +1,4 @@
-//create a function to print a poem
+//create a function that prints a poem
 function poem(){
     console.log("Twinkle Twinkle, little star");
     console.log("How i wonder what you are");
