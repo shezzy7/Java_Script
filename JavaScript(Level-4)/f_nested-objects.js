@@ -6,7 +6,7 @@ const student = {
         rol : 221722,
     },
     goodo : {
-        name : "Zainab Saleem",
+        name : "Goodo",
         rol : 221742,
     },
     huzzi : {
