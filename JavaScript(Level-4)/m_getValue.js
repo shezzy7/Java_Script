@@ -6,4 +6,4 @@ const obj = {
     marks : 1034,
     profession : "Student"
 };
-console.log(Object.values(obj));
+console.log(Object.values(obj));//this will return value of object on the form of array
