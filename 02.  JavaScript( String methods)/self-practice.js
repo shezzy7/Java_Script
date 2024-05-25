@@ -27,7 +27,7 @@ for(let i=0;i<frr.length;i++){
         break;
     }
 }
-console.log(frr.contains(5));
+// console.log(frr.contains(5));
 
 let str4="    i love silence   !   ";
 console.log(str4.trim());

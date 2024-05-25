@@ -17,6 +17,7 @@ for(n of num){
     count++;
 }
 console.log(`count =${count}`);
+
 //Question no.3
     //find the sum of all digits in a given number
 

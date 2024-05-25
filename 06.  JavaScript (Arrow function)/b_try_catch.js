@@ -5,7 +5,7 @@
 console.log("heloo1");
 console.log("heloo1");
 console.log("heloo1");
-// console.log(a);//when we will run this code then statements above a will be executed but when our code will hit console.log(a); statement then an error will be generated and statements after this line will not be executed.
+ console.log(a);//when we will run this code then statements above a will be executed but when our code will hit console.log(a); statement then an error will be generated and statements after this line will not be executed.
 //So to protect our programm from stoping when it encounters with error statements we use try and catch statements.
 //if we are unsure that this statement can give error at some condition then we write this statement in try block.This statement cheks the code if no error found then code will be executed other catch statements code will be executed
 console.log("Hello2");
@@ -25,7 +25,7 @@ catch{
     console.log("Hello4");
 }
 
-//lets intialoze a 
+//lets intialize a 
 let a=10;
 console.log("Hello5");
 console.log("Hello5");
