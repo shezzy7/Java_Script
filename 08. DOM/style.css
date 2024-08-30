@@ -1,0 +1,18 @@
+.oldImg{
+    height: 200px;
+}
+.box{
+    background-color: grey;
+    width: 200px;
+}
+
+.green{
+    color:green;
+}
+.uLine{
+    text-decoration:underline aqua wavy;
+}
+.bgYellow{
+    background-color:yellow ;
+    border: 0.25px black solid;
+}

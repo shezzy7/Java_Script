@@ -1,0 +1,1 @@
+//When we send some http request then some verbs are associated with this http request.Verb means some work like here Get(used when we want to get some data from given API),post(when we want to send some data through our API request),delete(when we want to delete some data with our API) etc.

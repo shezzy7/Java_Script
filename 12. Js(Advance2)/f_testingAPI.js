@@ -1,0 +1,2 @@
+//for testing our API request two famous resources are used one is 'Hoppscotch' and second is 'Postman'.Postman is an old tester and we have to download it for testing while hppscotch is an online tester and we don't need to download it.Both works same and efficiently so we can use any of them.
+//For using Hoppscotch go to https://hoppscotch.io and paste API(URL) in input area and then press send button, output will be shown in response body section.

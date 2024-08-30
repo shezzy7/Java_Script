@@ -1,0 +1,41 @@
+body{
+    text-align: center;
+}
+.btn-container{
+    display: flex;
+    justify-content: center;
+
+}
+.btn{
+    border: 5px solid black;
+    border-radius: 20%;
+    
+    margin: 10px;
+    width: 150px;
+    height: 150px;
+}
+.pink{
+    background-color:#d95980;
+    border-bottom-right-radius: 45%;
+}
+.green{
+    background-color:cadetblue;
+    border-bottom-left-radius: 45%;
+}
+.orange{
+    background-color: orange;
+    border-top-right-radius: 45%;
+}
+.purple{
+    background-color:steelblue;
+    border-top-left-radius: 45%;
+}
+.blink{
+    background-color: white;
+}
+.greeny{
+    background-color: green;
+}
+.redBack{
+    background-color: red;
+}

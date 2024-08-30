@@ -1,0 +1,66 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.container{
+    
+    border: 1.5px solid orange;
+    
+    max-height: auto;
+    width: auto;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: wheat;
+    box-shadow: 10px  grey ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+h1{
+    color:orange;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+input{
+    border-color: orange;
+    border-radius: 5px;
+    height: 25px;
+    width: 200px;
+    max-width: auto;
+
+}
+input:hover{
+    border: 2px solid orange;
+}
+button{
+    background-color: lawngreen;
+    border: 2px solid greenyellow;
+    border-radius: 5px;
+    color: white;
+}
+.delete{
+    background-color:red;
+    border: 2px solid red;
+    padding-left: 10px;
+}
+h2{
+    color: brown;
+}
+.color{
+    height: 30px;
+    border: 0.5px solid orange;
+    padding: 5px;
+
+}
+ol{
+    max-width: auto;
+    background-color: goldenrod;
+    border: 2px solid yellow;
+    max-height: 200px;
+    border-radius: 5px;
+    overflow-y:scroll;
+}
