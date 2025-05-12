@@ -33,6 +33,8 @@ boxes.forEach((box)=>{
 })
 let textCont=document.querySelector('.text-container');
 let winner = document.querySelector(".win");
+//check if game is at winning condition
+
 function checkWin(){
     for(pattren of winPatterens){
         let b1 = boxes[pattren[0]].innerText;
@@ -60,7 +62,7 @@ function disableGame(){
         btn.disabled=true;
     }
     textCont.style.marginBottom = '100vmin';
-    textCont.style.marginTop = '40vmin';
+    textCont.style.paddingTop = '40vmin';
 }
 
 //reset game when resent button pressed
@@ -79,7 +81,8 @@ restart.forEach((rest)=>{
     
     
 })
-
+image = document.getElementsByTagName('img')
+image.style.display='none'
 //GameDraw
 function gameDraw(){
     
@@ -87,5 +90,6 @@ function gameDraw(){
     textCont.classList.remove('dispNone');
     
     textCont.style.marginBottom = '140vmin';
-    textCont.style.marginTop = '40vmin';
+    textCont.style.paddingTop = '40vmin';
+    image.style.display='block'
 }

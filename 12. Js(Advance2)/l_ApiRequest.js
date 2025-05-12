@@ -1,7 +1,7 @@
                                     //Our First API request
 //lets do an api request.We use fetch method for doing api requests.
 //syntax-> fetch(url);
-//before fetch method there was a method known as XMLHTTPRequestObj but this method contains some issues due which it was rejected and a new method fetch was introduced and we use this method for our API calls.
+//before fetch method there was a method known as XMLHTTPRequestObj but this method contains some issues due to which it was rejected and a new method fetch was introduced and we use this method for our API calls.
 let url = "https://catfact.ninja/fact";
 //fetch method return a promise in result and we can apply promise's  method to result
 fetch(url)  
@@ -28,5 +28,5 @@ fetch(url)
     console.log(err);
 })
 
-//if we write another line of code after these api calls then javascript will execute it immediately and will not wait for our API's response whichc means that our javascript code works asynchronously\
+//if we write another line of code after these api calls then javascript will execute it immediately and will not wait for our API's response whichc means that our javascript code works asynchronously
 console.log("I'm happy");//this will be executed first of all as our apis take some time to give some response and javascript does not wait for this response it executes other code and when it receives response from api it executes it.

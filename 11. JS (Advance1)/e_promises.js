@@ -35,7 +35,7 @@ saveData('Shezzy',()=>{
 
 //so in this we can nest a long list of callbacks that will create a callback hell that made our code complex to understand.
 
-//To prevent our code from callback hell we uses promises
+//To prevent our code from callback hell we uses promises.
 
 //Promises object represents the eventual completion or failure of an asynchronous operation and its resulting value.
 //Each promise contains two terms reject and resolve
